@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    
+
+}
+
+header {
+    display: flex;
+    background-color: rgb(249, 232, 210);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+}
+
+.logo {
+    color: red;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+nav a{
+    color: red;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 20px;
+    
+}
+
+nav a:hover
+{
+    color: #BC8F8F;
+    font-weight: 900;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(image/jj.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+section {
+    padding: 100px 150px;
+}
+.content h2{
+    color: rgb(74, 9, 118);
+    font-size: 30px;
+    font-weight: bold;
+}
+.content h2 span {
+    color: #f00b0b;
+}
+.content h3 {
+    color: #be80db;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Contact-Me {
+    color: #000080;
+    background-color: rgb(249, 232, 210); 
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: 600;
+    transition: 0.5s;
+
+}
+.Contact-Me:hover {
+background-color: #BC8F8F;
+transform: scale(1.1);
+}
+
+.social a{
+    color: #570080;
+    font-size: 30px;
+    padding-right: 20px;
+}
+.social a{
+    background-color: rgb(249, 232, 210); 
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: 300;
+    transition: 0.5s;
+}
+.social a:hover{
+    background-color: #BC8F8F;
+    transform: scale(1.1);
+
+}
+
+.our-service {
+    text-align: center;
+    background-color: rgb(249, 232, 210);
+}
+
+.our-service h2 {
+    color: red;
+    font-size: 35px;
+}
+
+.our-service p {
+    color: #570080;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.services
+{
+    display: flex;
+    
+}
+.box {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid aliceblue;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.box:hover{
+    background-color: #f4ebeb;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px #b47a7a;
+    transform: scale(1.1);
+}
+.box h3 {
+    font-size: 20px;
+    color: #570080;
+}
+.box p {
+    font-size: 5px;
+}
+.icon{
+    color: red;
+    font-size: 40px;
+}
+.portfolio{
+    text-align: center;
+}
+
+.portfolio h2 {
+    color: red;
+    font-size: 35px;
+}
+.portfolio p{
+    color: #570080;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.photos {
+    display: flex;
+}
+.photo{
+    margin: 20px;
+}
+.photos img{
+    width: 100%;
+}
+.cotact-us{
+    background-color: rgb(249, 232, 210);
+    text-align: center;
+}
+.cotact-us h2 {
+    color: red;
+    font-size: 35px;
+}
+.cotact-us p{
+    color: #570080;
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+.contact-area{
+    width: 50%;
+    background-color: #f8ebeb;
+    margin: 20px auto;
+    padding: 35px;
+    border: 1px solid #eeadad;
+    border-radius: 10px;
+}
+.form-input input {
+    width: 60%;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid #dfcccc;
+
+}
+.form-input textarea {
+    width: 60%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid #ddabab;
+}
+.send {
+    padding: 5px 25px;
+    background-color: red;
+    color: rgb(244, 218, 218);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.send:hover {
+    background-color: #6f4c4c;
+}
+footer{
+    border-top: 5px solid #1e6591;
+    background-color: #cea5a5;
+    padding-top: 50px;
+    text-align: center;
+}
+footer p{
+    color: #570080;
+    font-size: 23px;
+}
